@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
-%define		pname	Struct
+%define		pnam	Struct
 Summary:	Inline::Struct Perl module
 Summary(cs):	Modul Inline::Struct pro Perl
 Summary(da):	Perlmodul Inline::Struct
@@ -28,7 +28,7 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a12b18f058361f4a3df4d39a67440bbd
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline-C >= 0.42
@@ -45,7 +45,7 @@ Modu³ Inline::Struct - pozwalaj±cy na dostêp do struktur C z poziomu
 Perla.
 
 %prep
-%setup -q -n %{pdir}-%{pname}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL </dev/null \
