@@ -30,7 +30,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 # Source0-md5:	a12b18f058361f4a3df4d39a67440bbd
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline-C >= 0.42
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Inline-C >= 0.42
