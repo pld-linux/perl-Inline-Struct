@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Inline::Struct
 Summary(it):	Modulo di Perl Inline::Struct
 Summary(ja):	Inline::Struct Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::Struct ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::Struct
+Summary(nb):	Perlmodul Inline::Struct
 Summary(pl):	Modu³ Perla Inline::Struct
 Summary(pt):	Módulo de Perl Inline::Struct
 Summary(pt_BR):	Módulo Perl Inline::Struct
