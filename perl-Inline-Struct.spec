@@ -23,13 +23,13 @@ Summary(uk):	Модуль для Perl Inline::Struct
 Summary(zh_CN):	Inline::Struct Perl дё©И
 Name:		perl-Inline-Struct
 Version:	0.06
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Inline-C >= 0.42
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Inline-C >= 0.42
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -45,7 +45,8 @@ Perla.
 %setup -q -n %{pdir}-%{pname}-%{version}
 
 %build
-%{__perl} Makefile.PL </dev/null
+%{__perl} Makefile.PL </dev/null \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -61,6 +62,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README TODO
-%{perl_sitelib}/Inline/Struct.pm
-%{perl_sitelib}/Inline/Struct
+%{perl_vendorlib}/Inline/Struct.pm
+%{perl_vendorlib}/Inline/Struct
 %{_mandir}/man3/*
