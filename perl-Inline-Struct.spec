@@ -25,7 +25,8 @@ Summary(zh_CN):	Inline::Struct Perl Ä£¿é
 Name:		perl-Inline-Struct
 Version:	0.06
 Release:	2
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
 # Source0-md5:	a12b18f058361f4a3df4d39a67440bbd
