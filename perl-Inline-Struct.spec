@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pname	Struct
-Summary:	Inline::Struct perl module
-Summary(pl):	Modu³ perla Inline::Struct
+%define		pdir	Inline
+%define		pname	Struct
+Summary:	Inline::Struct Perl module
+Summary(cs):	Modul Inline::Struct pro Perl
+Summary(da):	Perlmodul Inline::Struct
+Summary(de):	Inline::Struct Perl Modul
+Summary(es):	Módulo de Perl Inline::Struct
+Summary(fr):	Module Perl Inline::Struct
+Summary(it):	Modulo di Perl Inline::Struct
+Summary(ja):	Inline::Struct Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::Struct ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::Struct
+Summary(pl):	Modu³ Perla Inline::Struct
+Summary(pt):	Módulo de Perl Inline::Struct
+Summary(pt_BR):	Módulo Perl Inline::Struct
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Struct
+Summary(sv):	Inline::Struct Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Struct
+Summary(zh_CN):	Inline::Struct Perl Ä£¿é
 Name:		perl-Inline-Struct
 Version:	0.06
 Release:	1
@@ -29,6 +47,7 @@ Perla.
 %build
 perl Makefile.PL </dev/null
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
