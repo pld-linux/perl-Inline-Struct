@@ -23,7 +23,7 @@ Summary(uk):	Модуль для Perl Inline::Struct
 Summary(zh_CN):	Inline::Struct Perl дё©И
 Name:		perl-Inline-Struct
 Version:	0.06
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pname}-%{version}.tar.gz
