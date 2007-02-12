@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	Struct
 Summary:	Inline::Struct Perl module
-Summary(cs):	Modul Inline::Struct pro Perl
-Summary(da):	Perlmodul Inline::Struct
-Summary(de):	Inline::Struct Perl Modul
-Summary(es):	Módulo de Perl Inline::Struct
-Summary(fr):	Module Perl Inline::Struct
-Summary(it):	Modulo di Perl Inline::Struct
-Summary(ja):	Inline::Struct Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Inline::Struct ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Inline::Struct
-Summary(pl):	Modu³ Perla Inline::Struct
-Summary(pt):	Módulo de Perl Inline::Struct
-Summary(pt_BR):	Módulo Perl Inline::Struct
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::Struct
-Summary(sv):	Inline::Struct Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::Struct
-Summary(zh_CN):	Inline::Struct Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Inline::Struct pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::Struct
+Summary(de.UTF-8):   Inline::Struct Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Inline::Struct
+Summary(fr.UTF-8):   Module Perl Inline::Struct
+Summary(it.UTF-8):   Modulo di Perl Inline::Struct
+Summary(ja.UTF-8):   Inline::Struct Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Inline::Struct í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Inline::Struct
+Summary(pl.UTF-8):   ModuÅ‚ Perla Inline::Struct
+Summary(pt.UTF-8):   MÃ³dulo de Perl Inline::Struct
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Inline::Struct
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::Struct
+Summary(sv.UTF-8):   Inline::Struct Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::Struct
+Summary(zh_CN.UTF-8):   Inline::Struct Perl æ¨¡å—
 Name:		perl-Inline-Struct
 Version:	0.06
 Release:	3
@@ -40,8 +40,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Inline::Struct - Manipulate C structs directly from Perl.
 
-%description -l pl
-Modu³ Inline::Struct - pozwalaj±cy na dostêp do struktur C z poziomu
+%description -l pl.UTF-8
+ModuÅ‚ Inline::Struct - pozwalajÄ…cy na dostÄ™p do struktur C z poziomu
 Perla.
 
 %prep
