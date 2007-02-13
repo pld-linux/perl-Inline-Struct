@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	Struct
 Summary:	Inline::Struct Perl module
-Summary(cs.UTF-8):   Modul Inline::Struct pro Perl
-Summary(da.UTF-8):   Perlmodul Inline::Struct
-Summary(de.UTF-8):   Inline::Struct Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Inline::Struct
-Summary(fr.UTF-8):   Module Perl Inline::Struct
-Summary(it.UTF-8):   Modulo di Perl Inline::Struct
-Summary(ja.UTF-8):   Inline::Struct Perl モジュール
-Summary(ko.UTF-8):   Inline::Struct 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Inline::Struct
-Summary(pl.UTF-8):   Moduł Perla Inline::Struct
-Summary(pt.UTF-8):   Módulo de Perl Inline::Struct
-Summary(pt_BR.UTF-8):   Módulo Perl Inline::Struct
-Summary(ru.UTF-8):   Модуль для Perl Inline::Struct
-Summary(sv.UTF-8):   Inline::Struct Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Inline::Struct
-Summary(zh_CN.UTF-8):   Inline::Struct Perl 模块
+Summary(cs.UTF-8):	Modul Inline::Struct pro Perl
+Summary(da.UTF-8):	Perlmodul Inline::Struct
+Summary(de.UTF-8):	Inline::Struct Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Inline::Struct
+Summary(fr.UTF-8):	Module Perl Inline::Struct
+Summary(it.UTF-8):	Modulo di Perl Inline::Struct
+Summary(ja.UTF-8):	Inline::Struct Perl モジュール
+Summary(ko.UTF-8):	Inline::Struct 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Inline::Struct
+Summary(pl.UTF-8):	Moduł Perla Inline::Struct
+Summary(pt.UTF-8):	Módulo de Perl Inline::Struct
+Summary(pt_BR.UTF-8):	Módulo Perl Inline::Struct
+Summary(ru.UTF-8):	Модуль для Perl Inline::Struct
+Summary(sv.UTF-8):	Inline::Struct Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Inline::Struct
+Summary(zh_CN.UTF-8):	Inline::Struct Perl 模块
 Name:		perl-Inline-Struct
 Version:	0.06
 Release:	3
