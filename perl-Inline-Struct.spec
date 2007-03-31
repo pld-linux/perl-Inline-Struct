@@ -5,44 +5,36 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pnam	Struct
-Summary:	Inline::Struct Perl module
-Summary(cs.UTF-8):	Modul Inline::Struct pro Perl
-Summary(da.UTF-8):	Perlmodul Inline::Struct
-Summary(de.UTF-8):	Inline::Struct Perl Modul
-Summary(es.UTF-8):	Módulo de Perl Inline::Struct
-Summary(fr.UTF-8):	Module Perl Inline::Struct
-Summary(it.UTF-8):	Modulo di Perl Inline::Struct
-Summary(ja.UTF-8):	Inline::Struct Perl モジュール
-Summary(ko.UTF-8):	Inline::Struct 펄 모줄
-Summary(nb.UTF-8):	Perlmodul Inline::Struct
-Summary(pl.UTF-8):	Moduł Perla Inline::Struct
-Summary(pt.UTF-8):	Módulo de Perl Inline::Struct
-Summary(pt_BR.UTF-8):	Módulo Perl Inline::Struct
-Summary(ru.UTF-8):	Модуль для Perl Inline::Struct
-Summary(sv.UTF-8):	Inline::Struct Perlmodul
-Summary(uk.UTF-8):	Модуль для Perl Inline::Struct
-Summary(zh_CN.UTF-8):	Inline::Struct Perl 模块
+Summary:	Inline::Struct - Manipulate C structs directly from Perl
+Summary(pl.UTF-8):	Inline::Struct - dostęp do struktur C z poziomu Perla
 Name:		perl-Inline-Struct
 Version:	0.06
 Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Inline/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a12b18f058361f4a3df4d39a67440bbd
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Inline-Struct/
 BuildRequires:	perl-Inline-C >= 0.42
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Inline-C >= 0.42
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Inline::Struct - Manipulate C structs directly from Perl.
+Inline::Struct is not a new language. It's a language extension
+designed to be used by Inline::C. It parses struct definitions and
+creates typemaps and XS code which bind each struct into a Perl class.
+This code is passed to Inline::C, which compiles it in the normal way.
 
 %description -l pl.UTF-8
-Moduł Inline::Struct - pozwalający na dostęp do struktur C z poziomu
-Perla.
+Inline::Struct nie jest nowym językiem, lecz rozszerzeniem języka
+zaprojektowanym do używania przez Inline::C. Analizuje definicje
+struktur i tworzy mapy typów oraz kod XS przypisujący każdą strukturę
+do klasy perlowej. Kod ten jest przekazywany do Inline::C, który
+kompiluje go w zwykły sposób.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
