@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Inline
 %define		pnam	Struct
 Summary:	Inline::Struct - Manipulate C structs directly from Perl
